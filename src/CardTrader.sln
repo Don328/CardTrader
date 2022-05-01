@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardTrader.Data", "CardTrader.Data\CardTrader.Data.csproj", "{59CBD13B-0BBB-4F46-9959-DF97962371D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardTrader.Test", "CardTrader.Test\CardTrader.Test.csproj", "{3A565AFB-3351-4AD1-AF4F-B38D9AF7011F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +14,15 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59CBD13B-0BBB-4F46-9959-DF97962371D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59CBD13B-0BBB-4F46-9959-DF97962371D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59CBD13B-0BBB-4F46-9959-DF97962371D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59CBD13B-0BBB-4F46-9959-DF97962371D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A565AFB-3351-4AD1-AF4F-B38D9AF7011F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A565AFB-3351-4AD1-AF4F-B38D9AF7011F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A565AFB-3351-4AD1-AF4F-B38D9AF7011F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A565AFB-3351-4AD1-AF4F-B38D9AF7011F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
